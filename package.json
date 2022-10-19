@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-theme-hope-project",
+  "version": "1.0.0",
+  "homepage": "https://hungnguyen-itr.github.io/gitlab-pages-demo/",
+  "description": "A project of vuepress-theme-hope",
+  "license": "MIT",
+  "scripts": {
+    "docs:build": "vuepress build ./packages",
+    "docs:clean-dev": "vuepress dev ./packages --no-cache",
+    "docs:dev": "vuepress dev ./packages",
+    "docs:eject-theme": "vuepress eject-hope ./packages",
+    "deploy": "vuepress dev ./packages"
+
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-hope": "^1.30.0"
+  }
+}

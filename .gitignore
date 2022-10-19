@@ -1,0 +1,8 @@
+node_modules
+.vscode/
+/public/
+./package-lock.json 
+./yarn.lock
+.yarn/
+packages/.vuepress/.temp/
+packages/.vuepress/.cache/
